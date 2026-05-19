@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
-const lebalTextStyle = TextStyle(
-              fontSize: 24.0,
-              color: Color(0xFF8D8E98)
-          );
+import 'global.dart';
 
 class cardContent extends StatelessWidget {
 
@@ -25,7 +21,7 @@ class cardContent extends StatelessWidget {
           height: 15.0,
         ),
         Text(lebal,
-          style: lebalTextStyle,
+          style: kLebalTextStyle,
         )
       ],
     );
