@@ -15,3 +15,14 @@ const kLargeLebalTextStyle = TextStyle(
   fontSize: 30.0,
   fontWeight: FontWeight.bold,
 );
+
+const kResultTextStyle = TextStyle(
+    color: Color(0xFF24DB76),
+    fontSize: 22.0,
+    fontWeight: FontWeight.bold,
+);
+
+const kBIMTextStyle = TextStyle(
+  fontSize: 100.0,
+  fontWeight: FontWeight.bold,
+);
